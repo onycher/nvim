@@ -10,7 +10,7 @@ return {
         cucumber_language_server = {
           settings = {
             cucumber = {
-              glue = { "steps/**/*.py", }, 
+              glue = { "steps/**/*.py", "steps/*.py" }, 
             },
           },
         },
